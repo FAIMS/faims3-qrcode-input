@@ -19,19 +19,19 @@
  */
 
 import React, { useState } from 'react'
-import './XYZZYFormField.css'
+import './QRCodeFormField.css'
 import Input from '@material-ui/core/Input'
 
 import { FieldProps } from 'formik'
-export interface XYZZYFieldProps extends FieldProps {
+export interface QRCodeFieldProps extends FieldProps {
   label?: string
 }
 
-export function XYZZYFormField({
+export function QRCodeFormField({
   field,
   form,
   ...props
-}: XYZZYFieldProps): JSX.Element {
+}: QRCodeFieldProps): JSX.Element {
   // get previous form state if available
   let initialValue = ''
   if (form.values[field.name]) {

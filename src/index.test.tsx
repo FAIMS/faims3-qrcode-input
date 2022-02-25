@@ -1,7 +1,7 @@
-import { XYZZYFormField } from '.'
+import { QRCodeFormField } from '.'
 
-describe('XYZZYFormField', () => {
+describe('QRCodeFormField', () => {
   it('is truthy', () => {
-    expect(XYZZYFormField).toBeTruthy()
+    expect(QRCodeFormField).toBeTruthy()
   })
 })

@@ -1,7 +1,7 @@
 // @ts-ignore
 import React from 'react';
 import { Field, Form, Formik } from 'formik';
-import {XYZZYFormField} from 'faims3-xyzzy-input'
+import {QRCodeFormField} from 'faims3-qrcode-input'
 import Button from '@material-ui/core/Button'
 import './ExampleForm.css'
 
@@ -22,7 +22,7 @@ const ExampleForm = () => {
           <Form>
 
             <p>Sample form field</p>
-            <Field label="This label was set explicitly" name="sample" component={XYZZYFormField} />
+            <Field label="This label was set explicitly" name="sample" component={QRCodeFormField} />
             <p></p>
             <Button variant='contained' color='primary' type="submit">Submit</Button>
           </Form>

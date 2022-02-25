@@ -21,9 +21,9 @@ interface ProjectUIModel {
   visible_types: string[]
 }
 
-export const XYZZYFieldUISpec = {
+export const QRCodeFieldUISpec = {
   'component-namespace': 'xxxxx-plugin', // this says what web component to use to render/acquire value from
-  'component-name': 'XYZZYFormField',
+  'component-name': 'QRCodeFormField',
   'type-returned': 'faims-core::String', // matches a type in the Project Model
   'component-parameters': {
     name: 'radio-group-field',
@@ -39,7 +39,7 @@ export const XYZZYFieldUISpec = {
   initialValue: '1'
 }
 
-export const XYZZYFieldUISetting = (defaultSetting: ProjectUIModel) => {
+export const QRCodeFieldUISetting = (defaultSetting: ProjectUIModel) => {
   const newuiSetting = Object.assign({}, defaultSetting)
 
   return newuiSetting

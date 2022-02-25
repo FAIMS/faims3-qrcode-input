@@ -1,2 +1,2 @@
-export { XYZZYFormField } from './XYZZYFormField'
-export { XYZZYFieldUISpec, XYZZYFieldUISetting } from './XYZZYFormFieldSettings'
+export { QRCodeFormField } from './QRCodeFormField'
+export { QRCodeFieldUISpec, QRCodeFieldUISetting } from './QRCodeFormFieldSettings'
